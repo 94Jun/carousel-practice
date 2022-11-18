@@ -1,0 +1,12 @@
+@media (min-width : 700px){
+  .my_container{width: 90%;}
+}
+@media (min-width : 900px){
+  .my_container{width: 80%;}
+}
+@media (min-width : 1300px){
+  .my_container{width: 70%;}
+}
+@media (min-width : 1600px){
+  .my_container{width: 60%;}
+}

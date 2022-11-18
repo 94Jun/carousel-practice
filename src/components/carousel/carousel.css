@@ -1,0 +1,36 @@
+.my_carousel{
+  margin :5px 0;
+  min-height: 40vmin;
+  background-color: #eee;
+  position: relative;
+  z-index: -10;
+}
+.img_wrap{
+  width: 100%;
+  overflow: hidden;
+}
+.crs_img{
+  width: 100%;
+  margin : 0 auto;
+  border-radius: 1em;
+  display: flex;
+  transform: translateX(000%);
+  transition: transform 500ms;
+}
+.crs_img img{
+  width: 100%;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 1em;
+}
+.crs_btn{
+  text-align: center;
+  transform: translateY(-50px);
+}
+.crs_display_btn{
+  color : darkgray;
+  opacity: 0.5;
+}
+.btn_active{
+  color : white;
+  opacity: 1;
+}

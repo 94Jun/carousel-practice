@@ -1,0 +1,19 @@
+.nav_wrap{
+  margin-top: 2px;
+  background-color: #fff;
+  position: sticky;
+  top : 70px; /*헤더 높이와 동일하게 설정*/
+  z-index: -1;
+}
+.nav_list{
+  height: 40px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  font-size: var(--contents-font-size);
+}
+.nav_list * {
+  text-decoration: none;
+  color: black;
+}

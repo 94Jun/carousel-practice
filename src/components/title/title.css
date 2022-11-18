@@ -1,0 +1,9 @@
+.title{
+  font-family: 'Quicksand';
+  background: linear-gradient(to right, orange, rgb(231, 83, 46));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin : 20px 0;
+  font-size: var(--title-font-size);
+}

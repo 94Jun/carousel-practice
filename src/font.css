@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("../public/fonts/Quicksand-Bold.otf") format("opentype")
+}
+@font-face {
+  font-family: "Pretendard";
+  src: url("../public/fonts/Pretendard-Regular.otf") format("opentype")
+}
+@font-face {
+  font-family: "NanumSquare";
+  src: url("../public/fonts/NanumSquareL.otf") format("opentype")
+}
